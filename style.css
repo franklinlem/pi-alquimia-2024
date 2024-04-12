@@ -1,5 +1,5 @@
-@charset "UTF-8"
+@charset "UTF-8";
 *{
-    background-color: black;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, rgb(83, 81, 81), rgb(172, 163, 163));
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
