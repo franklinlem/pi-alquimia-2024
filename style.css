@@ -1,6 +1,16 @@
-@charset=('UTF-8')
+@charset "UTF-8";
 *{
     background-color: black;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+body{
+    background-color: black;
+}
+header{
+    text-align: center;
+}
+footer{
+    text-align: center;
 }
