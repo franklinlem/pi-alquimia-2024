@@ -41,66 +41,90 @@
     <main>
     <form class="row g-3 needs-validation" novalidate>
         <div class="col-md-4">
-          <label for="validationCustom01" class="form-label">First name</label>
-          <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+          <label for="validationCustom01" class="form-label">Nome</label>
+          <input type="text" class="form-control" id="validationCustom01" value="nome" required>
           <div class="valid-feedback">
-            Looks good!
+            OK!
           </div>
         </div>
         <div class="col-md-4">
-          <label for="validationCustom02" class="form-label">Last name</label>
-          <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+          <label for="validationCustom02" class="form-label">Sobrenome</label>
+          <input type="text" class="form-control" id="validationCustom02" value="sobrenome" required>
           <div class="valid-feedback">
-            Looks good!
+            OK!
           </div>
         </div>
         <div class="col-md-4">
-          <label for="validationCustomUsername" class="form-label">Username</label>
+          <label for="validationCustomUsername" class="form-label">Nome de Usuario</label>
           <div class="input-group has-validation">
             <span class="input-group-text" id="inputGroupPrepend">@</span>
             <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
             <div class="invalid-feedback">
-              Please choose a username.
+              Escolha um nome de usuário.
             </div>
           </div>
         </div>
         <div class="col-md-6">
-          <label for="validationCustom03" class="form-label">City</label>
+          <label for="validationCustom03" class="form-label">Cidade</label>
           <input type="text" class="form-control" id="validationCustom03" required>
           <div class="invalid-feedback">
-            Please provide a valid city.
+            Digite a sua cidade.
           </div>
         </div>
         <div class="col-md-3">
-          <label for="validationCustom04" class="form-label">State</label>
+          <label for="validationCustom04" class="form-label">Estado</label>
           <select class="form-select" id="validationCustom04" required>
-            <option selected disabled value="">Choose...</option>
-            <option>...</option>
+            <option selected disabled value="">Selecione...</option>
+            <option>SP</option>
+            <option>RJ</option>
+            <option>MG</option>
+            <option>BA</option>
+            <option>PR</option>
+            <option>RS</option>
+            <option>ES</option>
+            <option>SC</option>
+            <option>MS</option>
+            <option>MT</option>
+            <option>TO</option>
+            <option>DF</option>
+            <option>GO</option>
+            <option>PA</option>
+            <option>AM</option>
+            <option>PA</option>
+            <option>PI</option>
+            <option>AL</option>
+            <option>PE</option>
+            <option>AC</option>
+            <option>RO</option>
+            <option>RR</option>
+            <option>RN</option>
+            <option>CE</option>
+            <option>SE</option>
           </select>
           <div class="invalid-feedback">
-            Please select a valid state.
+            Digite seu estado.
           </div>
         </div>
         <div class="col-md-3">
-          <label for="validationCustom05" class="form-label">Zip</label>
+          <label for="validationCustom05" class="form-label">CEP</label>
           <input type="text" class="form-control" id="validationCustom05" required>
           <div class="invalid-feedback">
-            Please provide a valid zip.
+            Digite seu CEP.
           </div>
         </div>
         <div class="col-12">
           <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required> 
             <label class="form-check-label" for="invalidCheck">
-              Agree to terms and conditions
+            Concordo com os termos e condições.
             </label>
             <div class="invalid-feedback">
-              You must agree before submitting.
+              Você precisa concordar para enviar o formulário.
             </div>
           </div>
         </div>
         <div class="col-12">
-          <button class="btn btn-primary" type="submit">Submit form</button>
+          <button class="btn btn-primary" type="submit">Enviar cadastro</button>
         </div>
       </form>
     </main>
