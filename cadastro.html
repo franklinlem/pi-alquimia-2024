@@ -38,39 +38,72 @@
         </header>
       </div>
     </header>
-    <section>
-        <h1>Bem-vindo à Alquimia Cervejaria</h1>
-        <img src="imagens/cervejas.avif" alt="banner">
-
-        <h2>O lugar perfeito para os amantes de cerveja artesanal</h2>
-        <img src="#" alt="Alquimia Cervejaria">
-    </section>
-    <section>
-        <img src="#" alt="Balcão da Cervejaria">
-        <h3>EM PRIMEIRO LUGAR</h3>
-        <h2>Conheça a Alquimia Cervejaria</h2>
-        <p>A Cervejaria Alquimia é o lugar perfeito para os amantes de cervejas especiais. Com uma variedade de estilos como Pilsen, Stout, Lager e IPA, nossas cervejas são puro malte, bem lupuladas e refrescantes. Venha desfrutar de shows de rock com bandas locais toda semana e experimentar deliciosas porções da nossa maravilhosa cozinha. Além disso, somos o ponto de encontro de ciclistas, motociclistas, trilheiros e de todos que adoram uma cerveja artesanal especial. Venha conhecer o "Mago Merlin", nosso mestre cervejeiro, e se encante com a alquimia da cerveja.</p>
-    </section>
-    <section>
-        <img src="#" alt="Estilos de cervejas">
-        <h3>SEM MENCIONAR</h3>
-        <h2>Nossas Cervejas</h2>
-        <p>Conheça a variedade de cervejas especiais que oferecemos, desde a refrescante Pilsen até a encorpada Stout. Todas produzidas com ingredientes selecionados e seguindo as melhores técnicas de fabricação. Venha provar! Temos também Growlers com cerveja fresquinha direto dos tanques de maturação da nossa casa que são enchidos na hora!</p>
-    </section>
-    <section>
-        <img src="#" alt="Bandas locais">
-        <h3>E NÃO VAMOS ESQUECER</h3>
-        <h2>Eventos e entretenimento</h2>
-    </section>
-    <section>
-        <img src="#" alt="Growlers">
-        <h2>Sobre a Alquimia Cervejaria</h2>
-        <p>A Alquimia Cervejaria é uma cervejaria artesanal localizada na cidade de Sertãozinho-SP. Nós produzimos cervejas especiais do tipo <strong>Pilsen, Witbier, Stout, Lager e IPA</strong>, todas feitas com ingredientes selecionados e seguindo rigorosos padrões de qualidade. Além disso, oferecemos shows de rock com bandas locais toda semana e um restaurante com porções variadas para acompanhar sua cerveja. Nosso espaço é um ponto de encontro para ciclistas, motociclistas e trilheiros, onde todos podem desfrutar de uma cerveja puro malte, bem lupulada e refrescante. Venha nos visitar e conhecer nosso mestre cervejeiro, o 'Mago Merlin', que está sempre presente para garantir a excelência de nossas cervejas.</p>
-    </section>
-    <section>
-        <img src="#" alt="Fachada da Cervejaria">
-        <h2>A magia da cerveja artesanal acontece aqui!</h2>
-    </section>
+    <main>
+    <form class="row g-3 needs-validation" novalidate>
+        <div class="col-md-4">
+          <label for="validationCustom01" class="form-label">First name</label>
+          <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustom02" class="form-label">Last name</label>
+          <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="validationCustomUsername" class="form-label">Username</label>
+          <div class="input-group has-validation">
+            <span class="input-group-text" id="inputGroupPrepend">@</span>
+            <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+            <div class="invalid-feedback">
+              Please choose a username.
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <label for="validationCustom03" class="form-label">City</label>
+          <input type="text" class="form-control" id="validationCustom03" required>
+          <div class="invalid-feedback">
+            Please provide a valid city.
+          </div>
+        </div>
+        <div class="col-md-3">
+          <label for="validationCustom04" class="form-label">State</label>
+          <select class="form-select" id="validationCustom04" required>
+            <option selected disabled value="">Choose...</option>
+            <option>...</option>
+          </select>
+          <div class="invalid-feedback">
+            Please select a valid state.
+          </div>
+        </div>
+        <div class="col-md-3">
+          <label for="validationCustom05" class="form-label">Zip</label>
+          <input type="text" class="form-control" id="validationCustom05" required>
+          <div class="invalid-feedback">
+            Please provide a valid zip.
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+            <label class="form-check-label" for="invalidCheck">
+              Agree to terms and conditions
+            </label>
+            <div class="invalid-feedback">
+              You must agree before submitting.
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Submit form</button>
+        </div>
+      </form>
+    </main>
     <footer>
         <img src=".\imagens\logo-branco-pequeno.avif" alt="logo">
         <h3>Alquimia Cervejaria</h3>
