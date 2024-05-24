@@ -154,9 +154,10 @@
   <hr>
   <main class="px-3">
     <h1>CERVEJAS DA ALQUIMIA</h1>
-      <section>
-       
-    <h2>Selecione sua cerveja favorita</h2>
+
+    <section>  
+    <h4>Selecione sua cerveja favorita</h4>
+    <br>
     <div class="product">
         <img src="imagens/alq17.jpeg" alt="Pilsen" width="300px">
         <h2>Cerveja Pilsen</h2>
@@ -166,6 +167,7 @@
         <input type="number" id="quantity1" name="quantity1" min="1" max="10" value="1">
         <button onclick="addToCart('Pilsen', 15)">Adicionar ao Carrinho</button>
     </div>
+    <hr>
     <div class="product">
       <img src="imagens/alq13.jpeg" alt="IPA" width="300px">
       <h2>Cerveja IPA</h2>
@@ -175,6 +177,7 @@
       <input type="number" id="quantity1" name="quantity1" min="1" max="10" value="1">
       <button onclick="addToCart('Pilsen', 15)">Adicionar ao Carrinho</button>
   </div>
+  <hr>
   <div class="product">
     <img src="imagens/alq07.jpeg" alt="Stout" width="300px">
     <h2>Cerveja Stout</h2>
@@ -184,6 +187,17 @@
     <input type="number" id="quantity1" name="quantity1" min="1" max="10" value="1">
     <button onclick="addToCart('Pilsen', 15)">Adicionar ao Carrinho</button>
 </div>
+<hr>
+<div class="product">
+  <img src="imagens/alq07.jpeg" alt="Witbier" width="300px">
+  <h2>Witbier  - Cerveja de Trigo</h2>
+  <p>Descrição: Uma cerveja de trigo ao estilo Belga com cascas de laranja e semente de coentro. Pouco amargor e muita complexidade no aroma. Muito boa para acompanhar saladas, comida japonesa e alguns tipos de queijos.</p>
+  <p>Preço: R$ 18,00 o Growler Pet de 1 litro.</p>
+  <label for="quantity1">Quantidade:</label>
+  <input type="number" id="quantity1" name="quantity1" min="1" max="10" value="1">
+  <button onclick="addToCart('Pilsen', 15)">Adicionar ao Carrinho</button>
+</div>
+<hr>
     <!-- Repita o bloco acima para outras cervejas -->
     <script>
         function addToCart(productName, price) {
@@ -195,7 +209,6 @@
     </script>
       </section>
   </main>
-  <hr>
 
   <footer class="mt-auto text-white-50">
     <div id="ft-img">
