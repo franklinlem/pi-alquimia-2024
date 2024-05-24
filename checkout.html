@@ -1,14 +1,13 @@
 <!doctype html>
 <html lang="pt-br" class="h-100" data-bs-theme="auto">
   <head>
-    <script src="./assets/js/color-modes.js"></script>
+    <script src="../assets/js/color-modes.js"></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Alquimia Cervejaria</title>
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/cover/">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
-    <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -81,7 +80,6 @@
     
     <link href="cover.css" rel="stylesheet">
   </head>
-
   <body class="d-flex h-100 text-center text-bg-dark">
     <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
       <symbol id="check2" viewBox="0 0 16 16">
@@ -139,12 +137,17 @@
   <header class="mb-auto">
     
     <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+      <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+        <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+      </a>
+
       <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
         <li><a href="inicio.html" class="nav-link px-2 text-white">Início</a></li>
         <li><a href="cervejas.html" class="nav-link px-2 text-white">Cervejas</a></li>
         <li><a href="carrinho.html" class="nav-link px-2 text-white">Carrinho</a></li>
         <li><a href="contato.html" class="nav-link px-2 text-white">Contato</a></li>
       </ul>
+
       <div class="text-end">
         <button type="button" class="btn btn-outline-light me-2">Login</button>
         <button type="button" class="btn btn-warning">Cadastre-se</button>
@@ -153,47 +156,45 @@
   </header>
   <hr>
   <main class="px-3">
-    <h1>CERVEJAS DA ALQUIMIA</h1>
+    <h1>ALQUIMIA CERVEJARIA</h1>
+    <img src="imagens/logo-branco-grande.avif" alt="Logo Alquimia" width="500px">
+    <p class="lead">O lugar perfeito para os amantes de cerveja artesanal!</p>
+    <p class="lead">
+
       <section>
-       
-    <h2>Selecione sua cerveja favorita</h2>
-    <div class="product">
-        <img src="imagens/alq17.jpeg" alt="Pilsen">
-        <h2>Cerveja Pilsen</h2>
-        <p>Descrição: Uma cerveja de baixa fermentação, tipo lager, sem muito amargor e mais aroma. Excelente para dias mais quentes e para harmonizar comidas leves, queijos e saladas.</p>
-        <p>Preço: R$ 15,00 o Growler Pet de 1 litro.</p>
-        <label for="quantity1">Quantidade:</label>
-        <input type="number" id="quantity1" name="quantity1" min="1" max="10" value="1">
-        <button onclick="addToCart('Pilsen', 15)">Adicionar ao Carrinho</button>
-    </div>
-    <div class="product">
-      <img src="imagens/alq13.jpeg" alt="IPA">
-      <h2>Cerveja IPA</h2>
-      <p>Descrição: Uma cerveja de alta fermentação, tipo ALE, com bastante lúpulo e aroma. Um pouco amarga. Excelente para dias mais frios e para harmonizar comidas fortes, churrasco, feijoada e alguns tipos de queijos.</p>
-      <p>Preço: R$ 20,00 o Growler Pet de 1 litro.</p>
-      <label for="quantity1">Quantidade:</label>
-      <input type="number" id="quantity1" name="quantity1" min="1" max="10" value="1">
-      <button onclick="addToCart('Pilsen', 15)">Adicionar ao Carrinho</button>
-  </div>
-  <div class="product">
-    <img src="stout.html" alt="Stout">
-    <h2>Cerveja Stout</h2>
-    <p>Descrição: Uma cerveja escura de alta fermentação, tipo ALE, sem muito amargor e com mais aroma de maltes torrados. Muito boa para acompanhar sobremesas e alguns tipos de queijos.</p>
-    <p>Preço: R$ 18,00 o Growler Pet de 1 litro.</p>
-    <label for="quantity1">Quantidade:</label>
-    <input type="number" id="quantity1" name="quantity1" min="1" max="10" value="1">
-    <button onclick="addToCart('Pilsen', 15)">Adicionar ao Carrinho</button>
-</div>
-    <!-- Repita o bloco acima para outras cervejas -->
-    <script>
-        function addToCart(productName, price) {
-            // Lógica para adicionar ao carrinho (pode ser implementada em JavaScript)
-            // Por exemplo, você pode usar um array para armazenar os produtos selecionados
-            // e calcular o total.
-            console.log(`Produto: ${productName}, Preço: R$ ${price}`);
-        }
-    </script>
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="imagens/alq15.jpeg" class="d-block w-100" alt="Cervejas da Alquimia">
+            </div>
+            <div class="carousel-item">
+              <img src="imagens/alq17.jpeg" class="d-block w-100" alt="Cerveja Pilsen">
+            </div>
+            <div class="carousel-item">
+              <img src="imagens/alq13.jpeg" class="d-block w-100" alt="Cerveja IPA">
+            </div>
+            <div class="carousel-item">
+              <img src="imagens/alq07.jpeg" class="d-block w-100" alt="Cerveja Stout">
+            </div>
+            <div class="carousel-item">
+              <img src="imagens/alq21.jpeg" class="d-block w-100" alt="Cerveja Witbier">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Próxima</span>
+          </button>
+        </div>
+        <p>Todas a nossas cervejas são feitas com insumos importados e de alta qualidade.<br>
+          100% PURO MALTE!</p>
       </section>
+
+      <a href="cervejas.html" class="btn btn-lg btn-light fw-bold border-white bg-white">Conheça nossas cervejas</a>
+    </p>
   </main>
   <hr>
 
